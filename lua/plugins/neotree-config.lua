@@ -6,5 +6,14 @@ return {
         position = "current",
       },
     },
+    keys = {
+      {
+        "<leader>fe",
+        ":Neotree reveal<CR>",
+        {
+          desc = "[F]ind file in [E]xplorer",
+        },
+      },
+    },
   },
 }
