@@ -2,8 +2,11 @@ return {
   {
     "nvim-neo-tree/neo-tree.nvim",
     opts = {
+      defaults = {
+        winblend = 20,
+      },
       window = {
-        position = "current",
+        position = "float",
       },
     },
     keys = {
