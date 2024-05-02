@@ -8,6 +8,7 @@ return {
       window = {
         position = "float",
       },
+      update_cwd = false,
     },
     keys = {
       {
