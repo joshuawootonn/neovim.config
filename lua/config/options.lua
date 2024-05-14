@@ -7,3 +7,7 @@ vim.filetype.add({
     mdx = "markdown",
   },
 })
+
+vim.g.root_spec = {
+  "cwd",
+}
