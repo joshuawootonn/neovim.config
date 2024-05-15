@@ -26,6 +26,7 @@ return {
       local cmp = require("cmp")
 
       opts.mapping = vim.tbl_extend("force", opts.mapping, {
+        ["<CR>"] = cmp.config.disable,
         ["<Tab>"] = cmp.mapping(function(fallback)
           if cmp.visible() then
             local entry = cmp.get_selected_entry()
