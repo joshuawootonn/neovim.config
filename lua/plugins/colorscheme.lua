@@ -4,7 +4,7 @@ return {
   -- { "bignimbus/pop-punk.vim" },
   -- { "kepano/flexoki-neovim", name = "flexoki" },
   -- { "nyoom-engineering/oxocarbon.nvim" },
-  -- { "projekt0n/github-nvim-theme" },
+  { "projekt0n/github-nvim-theme" },
 
   -- Configure LazyVim to load gruvbox
   { "folke/tokyonight.nvim", opts = {
@@ -13,7 +13,8 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "tokyonight",
+      -- colorscheme = "tokyonight",
+      colorscheme = "github_dark_high_contrast",
     },
   },
 }
