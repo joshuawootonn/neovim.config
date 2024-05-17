@@ -8,6 +8,4 @@ vim.filetype.add({
   },
 })
 
-vim.g.root_spec = {
-  "cwd",
-}
+vim.g.root_spec = { "lsp", {"turbo.json", ".git"}, "cwd" }
