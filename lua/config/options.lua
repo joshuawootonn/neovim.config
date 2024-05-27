@@ -9,3 +9,5 @@ vim.filetype.add({
 })
 
 vim.g.root_spec = { "cwd" }
+
+vim.opt.conceallevel = 0
