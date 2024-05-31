@@ -2,8 +2,6 @@ return {
   "ahmedkhalf/project.nvim",
   opts = {
     manual_mode = true,
-    -- detection_methods = { "pattern","lsp" },
-    -- patterns = {"!>packages", "turbo.json", ".git", "package.json" },
   },
   event = "VeryLazy",
   config = function(_, opts)
