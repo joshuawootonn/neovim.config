@@ -13,3 +13,7 @@ vim.g.root_spec = { "cwd" }
 vim.opt.conceallevel = 0
 
 vim.opt.so = 15
+
+vim.opt.scroll = 10
+
+vim.opt.mousescroll = "ver:0,hor:0"
