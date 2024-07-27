@@ -3,4 +3,4 @@
 -- Add any additional keymaps here
 
 vim.keymap.set("n", "<leader>5", ":wall<cr>", { desc = "Save all" })
-vim.keymap.set("n", "ss", ":wall<cr>", { desc = "Save all" })
+vim.keymap.set("n", "ss", ":w<cr>", { desc = "Save all" })
