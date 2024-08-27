@@ -17,6 +17,9 @@ return {
         layout_config = { prompt_position = "top" },
         sorting_strategy = "ascending",
         winblend = 20,
+        file_ignore_patterns = {
+          "node_modules", ".next"
+        }
       },
       pickers = {
         find_files = {
