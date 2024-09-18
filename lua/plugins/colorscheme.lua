@@ -4,17 +4,27 @@ return {
   -- { "bignimbus/pop-punk.vim" },
   -- { "kepano/flexoki-neovim", name = "flexoki" },
   -- { "nyoom-engineering/oxocarbon.nvim" },
-  { "projekt0n/github-nvim-theme" },
 
-  -- Configure LazyVim to load gruvbox
-  { "folke/tokyonight.nvim", opts = {
-    style = "night",
-  } },
+  -- CYBERDREAM
+  {
+    "scottmckendry/cyberdream.nvim",
+    lazy = false,
+    priority = 1000,
+  },
+
+  -- GITHUB
+  -- { "projekt0n/github-nvim-theme" },
+
+  -- TOKYO
+  -- { "folke/tokyonight.nvim", opts = {
+  -- style = "night",
+  -- } },
   {
     "LazyVim/LazyVim",
     opts = {
       -- colorscheme = "tokyonight",
-      colorscheme = "github_dark_high_contrast",
+      -- colorscheme = "github_dark_high_contrast",
+      colorscheme = "cyberdream",
     },
   },
 }
