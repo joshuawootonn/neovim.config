@@ -18,7 +18,7 @@ return {
         sorting_strategy = "ascending",
         winblend = 20,
         file_ignore_patterns = {
-          "node_modules", ".next"
+          "node_modules", ".next", "generated", "gql"
         }
       },
       pickers = {
