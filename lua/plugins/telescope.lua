@@ -18,18 +18,20 @@ return {
         sorting_strategy = "ascending",
         winblend = 20,
         file_ignore_patterns = {
-          "node_modules", ".next", "generated", "gql"
-        }
+          ".next",
+          "generated",
+          "gql",
+        },
       },
       pickers = {
         find_files = {
-          hidden = true
+          hidden = true,
         },
         grep_string = {
-          additional_args = {"--hidden"}
+          additional_args = { "--hidden" },
         },
         live_grep = {
-          additional_args = {"--hidden"}
+          additional_args = { "--hidden" },
         },
       },
     },
