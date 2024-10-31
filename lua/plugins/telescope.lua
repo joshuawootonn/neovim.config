@@ -18,7 +18,6 @@ return {
         sorting_strategy = "ascending",
         winblend = 20,
         file_ignore_patterns = {
-          ".next",
           "generated",
           "gql",
         },
