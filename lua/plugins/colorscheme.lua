@@ -6,14 +6,14 @@ return {
   -- { "nyoom-engineering/oxocarbon.nvim" },
 
   -- CYBERDREAM
-  -- {
-  --   "scottmckendry/cyberdream.nvim",
-  --   lazy = false,
-  --   priority = 1000,
-  -- },
+  {
+    "scottmckendry/cyberdream.nvim",
+    lazy = false,
+    priority = 1000,
+  },
 
   -- GITHUB
-  { "projekt0n/github-nvim-theme" },
+  -- { "projekt0n/github-nvim-theme" },
 
   -- TOKYO
   -- { "folke/tokyonight.nvim", opts = {
@@ -22,8 +22,8 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      -- colorscheme = "cyberdream",
-      colorscheme = "github_dark_high_contrast",
+      colorscheme = "cyberdream",
+      -- colorscheme = "github_dark_high_contrast",
       -- colorscheme = "tokyonight",
     },
   },
