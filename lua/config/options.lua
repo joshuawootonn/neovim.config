@@ -17,3 +17,6 @@ vim.opt.so = 15
 vim.opt.scroll = 10
 
 vim.opt.mousescroll = "ver:0,hor:0"
+
+-- disable animations
+vim.g.snacks_animate = false
